@@ -1,0 +1,11 @@
+# from a boilerplate gitignore for python projects 
+# github offers
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+utils/__pycache__/
+*.py[cod]
+*$py.class
+
+# yolo3 weights, which are larger than github allows
+config/yolov3.weights
